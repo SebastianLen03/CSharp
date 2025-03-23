@@ -83,6 +83,56 @@
 
             //string varString = "Hello World"; //dowolna ilość znaków
             //Console.WriteLine(varString);
-        }
+
+            // Typy danych [logiczne]
+
+            //bool varBool = true; // true/false
+            //Console.WriteLine(varBool);
+
+            // Var
+
+            //var a = 2;
+            //Console.WriteLine(a);
+            //Console.WriteLine(a.GetType());
+
+            //var tekst = "Hello World";
+            //Console.WriteLine(tekst);
+            //Console.WriteLine(tekst.GetType());
+
+            //Rzutowanie
+
+            //rzutowanie niejawne
+
+            //int varInt = 200000;
+
+            //long varLong;
+            //varLong = varInt;
+
+            //Console.WriteLine(varLong);
+
+            //// rzutowanie jawne
+
+            //short varShort;
+            //varShort = (short)varInt;
+
+            //Console.WriteLine(varShort);
+
+            //Parsowanie
+
+            //string tekst = Console.ReadLine();
+            //int varInt;
+            //float varFloat;
+
+            ////varInt = int.Parse(tekst);
+            ////Console.WriteLine(varInt + varInt);
+
+            ////varFloat = float.Parse(tekst.Replace('.', ',')); //Replace zamiana kropki na przecinek
+            ////Console.WriteLine(varFloat + varFloat);
+
+            //bool success = float.TryParse(tekst, out varFloat); //Sprawdzenie czy konwersja jest możliwa 
+            //Console.WriteLine($"{varFloat} - {success}");
+
+            //tekst = varFloat.ToString(); //Konwersja na string
+        } 
     }
 }
